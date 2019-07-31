@@ -1,5 +1,3 @@
-"use strict";
-
 /**
  * author Michal Zimmermann <zimmicz@gmail.com>
  * Displays coordinates of mouseclick.
@@ -78,3 +76,18 @@ L.Control.Coordinates = L.Control.extend({
 		}
 	}
 });
+
+L.Map.mergeOptions({
+	positionControl: false
+});
+
+L.Map.addInitHook(function () {
+	if (this.options.positionControl) {
+		this.positionControl = new L.Control.Coordinates();
+		this.addControl(this.positionControl);
+	}
+});
+
+L.control.coordinates = function (options) {	
+	return new L.Control.Coordinates(options);
+};
