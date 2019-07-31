@@ -1,0 +1,25 @@
+{
+  "name": "leaflet-coordinates-control",
+  "version": "1.0.0",
+  "description": "Captures mouseclick and displays its coordinates with easy way to copy them",
+  "main": "src/L.Control.Coordinates.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedroalvesr/Leaflet-Coordinates-Control.git"
+  },
+  "keywords": [
+    "leaflet",
+    "leaflet-control-coordinates"
+  ],
+  "author": {
+    "name": "https://github.com/zimmicz"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pedroalvesr/Leaflet-Coordinates-Control/issues"
+  },
+  "homepage": "https://github.com/pedroalvesr/Leaflet-Coordinates-Control#readme"
+}
