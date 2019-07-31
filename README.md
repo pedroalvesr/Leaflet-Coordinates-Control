@@ -2,7 +2,7 @@ Leaflet Coordinates Control
 ===========================
 Captures mouseclick and displays its coordinates with easy way to copy them.
 
-Demo ([clik here](http://zimmicz.github.io/Leaflet-Coordinates-Control/))
+Demo ([click here](http://zimmicz.github.io/Leaflet-Coordinates-Control/))
 ----
 
 
